@@ -1,2 +1,5 @@
+pip install -U --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
+conda install -c conda-forge cudatoolkit-dev -y
 conda install -c conda-forge gcc_linux-64=11.2.0 gxx_linux-64=11.2.0
-
+MAX_JOBS=4
+python setup.py install
